@@ -16,5 +16,5 @@ text
 ## Sans-Serif Typefaces
 
 - __[Red Hat Display]__
-	- __[Variable Font](https://github.com/NewSpectrum/Free-and-Fancy-Assets/Wiki/Fonts/Font-Properties.md/#VariableFonts):__ True
+	- __[Variable Font](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Properties#variable-fonts):__ True
 	- __Font Weights:__
