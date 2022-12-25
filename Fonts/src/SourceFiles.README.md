@@ -1,27 +1,27 @@
 # About Font Files
 
-When it comes to fonts, there are __[three *primary* File Formats](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#The-Formats)__:
-- __[TrueType Fonts](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#TrueType-Fonts)__
+When it comes to fonts, there are __[three *primary* File Formats](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#the-formats)__:
+- __[TrueType Fonts](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#truetype-fonts)__
 	- Extension: `.ttf`
 	- Designed for local installation
 	- Originally designed by Apple, OS compatibility varies
 		- Natively-installed MacOS fonts are only compatible with MacOS. Most other `.ttf` fonts are universally compatible with Windows and Linux.
-	- __[TrueType](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#TrueType-Fonts)__ actually has __[three Sub-Types](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#TTF-Sub-Types)__:
-		- __[Variable TrueType](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#Variable-TrueType)__
+	- __[TrueType](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#truetype-fonts)__ actually has __[three Sub-Types](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#tty-sub-types)__:
+		- __[Variable TrueType](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#variable-truetype)__
 			- Also uses the `.ttf` extension
 			- See __[Variable Fonts]__ for details
-		- __[TrueType Collections](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#TrueType-Collections)__
+		- __[TrueType Collections](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#truetype-collections)__
 			- Extension: `.ttc`
 			- Used to store several `.ttf` fonts in a single file (as the name implies).
-- __[OpenType Fonts](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#OpenType-Fonts)__
+- __[OpenType Fonts](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#opentype-fonts)__
 	- Extension: `.otf`
 	- Designed for local installation
 	- Universally compatible for all operating systems
-- __[Embedded OpenType Fonts](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#Embedded-OpenType)__
+- __[Embedded OpenType Fonts](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#embedded-opentype)__
 	- Extension: `.eof`
 	- Designed specifically for web use
 	- Universally compatible for all major browsers
-	- What's the difference? See the __[System vs Web Fonts Section](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#System-vs-Web-Fonts)__ of the __[Font Files Wiki](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files)__ for details.
+	- What's the difference? See the __[System vs Web Fonts Section](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files#system-vs-web-fonts)__ of the __[Font Files Wiki](https://github.com/NewSpectrum/Free-and-Fancy-Assets/wiki/Font-Files)__ for details.
 
 
 <br />
@@ -45,8 +45,6 @@ Windows, without a doubt, has the fastest and easiest method of installing dozen
 <img id="Windows Install Ex01"
 	 src="../../src/img/fonts/Win_Install-All-Fonts.jpeg"
 	 alt="Install all Fonts" width="350px" height="auto" style="border-radius:10px"/>
-
-
 
 
 
