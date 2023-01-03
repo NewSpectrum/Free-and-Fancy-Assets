@@ -1,0 +1,9 @@
+{
+	"schemaVersion": 1,
+	"label": "Report",
+	"labelColor": "hsl(0,75%,35%)",
+	"message": "to GitHub",
+	"color": "hsl(300,75%,35%)",
+	"style": "flat",
+	"namedLogo": "GitHub"
+}
