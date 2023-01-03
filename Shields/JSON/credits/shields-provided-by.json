@@ -1,0 +1,8 @@
+{
+	"schemaVersion": 1,
+	"label": "Provided by",
+	"labelColor": "hsla(45, 100%, 60%)",
+	"message": "img.shield.io",
+	"color": "hsla(205, 75%, 45%, 1.0)",
+	"style": "flat"
+}
