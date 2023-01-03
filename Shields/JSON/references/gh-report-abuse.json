@@ -1,0 +1,9 @@
+{
+	"schemaVersion": 1,
+	"label": "Report",
+	"labelColor": "gray",
+	"message": "Abuse to GitHub",
+	"color": "hsl(0,75%,35%)",
+	"style": "flat",
+	"namedLogo": "GitHub"
+}
