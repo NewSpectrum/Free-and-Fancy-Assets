@@ -1,0 +1,9 @@
+{
+	"schemaVersion": 1,
+	"label": "Report Abuse",
+	"labelColor": "hsl(0,50%,25%)",
+	"message": "to GitHub",
+	"color": "hsl(300,75%,25%)",
+	"style": "flat",
+	"logoSvg": "https://raw.githubusercontent.com/NewSpectrum/.github/main/.assets/graphics/logo/svg/Icon%20Only%20(1x1).svg"
+}
