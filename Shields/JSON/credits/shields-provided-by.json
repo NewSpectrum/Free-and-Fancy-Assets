@@ -3,6 +3,6 @@
 	"label": "Provided by",
 	"labelColor": "hsl(40, 100%, 60%)"
 	"message": "img.shield.io",
-	"color": "hsl(205, 75%, 45%)",
+	"color": "hsl(205, 75%, 35%)",
 	"style": "flat"
 }
