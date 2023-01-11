@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+		// Required, always '1'
+	"label": "Left Label",
+		// Required. Sets the text on the left.
+	"message": "sweet world",
+		// Required. Sets the text on the right.
+	"labelColor": "hsla(0, 0%, 50%, 1.0)", /*
+		Sets color of 'label' box (left)
+		When left unset, defaults to 'gray'
+		See 'color' ↓ notes for additional information. */
+	"color": "orange", /*
+		Sets color of 'message' box (right side)
+		When left unset, color defaults to 'light-gray'
+		Accepts all CSS color inputs (all ↓ are 'orange'):
+			rgb(255, 125, 0)	| rgba(255, 125, 0, 1.0)
+			hsl(30, 100%, 50%)	| hsla(30, 100%, 50%, 1.0)
+			#FF7D00				| FF7D00ff
+		See 'Shields.README.md #Colors' for details */
+	"style": "flat", /*
+		Styles include:
+			'Plastic'
+			'Flat'
+			'Flat-Square'
+			'For-The-Badge' */
+	"namedLogo": null, /*
+		Insert the name of a logo from 'Shields' or 'simple-icons'
+			Example: Amazon Web Services
+			"namedLogo": "amazonaws"
+		Visit https://simpleicons.org/ for options. */
+	"svg": null, /*
+		Insert the RAW '.svg' data in place of 'null'
+		Yes, all of it. Yes, I know it's probably huge.
+		Yes, it all has to be on a single line. And finally...
+		Yes, you might have to escape the existing double-quotes
+		(and by 'might' I mean 'almost certainly').
+		See this page for help on formatting your SVG data:
+			[url] */
+}
