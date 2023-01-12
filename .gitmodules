@@ -1,0 +1,3 @@
+[submodule "Icons/simple-icons.icons-submodule"]
+	path = Icons/simple-icons
+	url = https://github.com/NewSpectrum/simple-icons/tree/icons-submodule
