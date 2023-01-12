@@ -29,19 +29,35 @@ __IMPORTANT:__
 
 Be sure to use the __[Raw File URL]__, which starts with:
 
-`https://raw.githubusercontent.com/...`
-
+#### Beginning of `Endpoint URL`
 ```ps
-https://[raw.githubusercontent].com/...
+"https://[raw].[githubusercontent].com/..."
 ```
 
 
-- Should you choose to setup your __Endpoint URL__ *manually* rather than using the __[Create from JSON](https://shields.io/endpoint#:~:text=Customize%20and%20Test)__ tool, you need to *replace the following characters* with the the following __[`ASCII` Codes]__
-	- __[Embedded URI Characters]__
-		- Colon `:`
-		- Forward-Slash `/`
-		- Back-Slash `\` (from Windows file paths)
-			- *Hard time remembering which is which? [Click Here](https://github.com/NewSpectrum/NewSpectrum-Home/wiki)*
+#### Breakdown
+```ps
+<# [https://] #>   'raw.githubusercontent'	  <# .com/[path]/[File.json] #>
+<#     ↑      #>     ↑        ↑_________↑     <#        ↑      ↑     ↑   #>
+<#  Protocol  #>   The [raw].subdomain for    <#        the JSON's URI   #>
+				   GitHub's [user content]
+```
+
+#### IMPORTANT: Make sure `raw` is the __`sub`__`.domain`
+```ps
+# ✅ Good to use:
+https://[raw].[githubusercontent].com/...
+
+# ❌ Will Result in 'Domain is Blocked'
+https://github.com/{User|Org}/{Repo}/[raw]/{branch}/{Path}/name.json
+```
+
+Should you choose to setup your __Endpoint URL__ *manually* rather than using the __[Create from JSON](https://shields.io/endpoint#:~:text=Customize%20and%20Test)__ tool, you need to *replace the following characters* with the the following __[`ASCII` Codes]__
+- __[Embedded URI Characters]__
+	- Colon `:`
+	- Forward-Slash `/`
+	- Back-Slash `\` (from Windows file paths)
+		- *Hard time remembering which is which? [Click Here](https://github.com/NewSpectrum/NewSpectrum-Home/wiki)*
 
 | Character | Validity | HTML Code |
 | :---:     | :---     | :---:     |
