@@ -1,0 +1,10 @@
+{
+	"schemaVersion": 1,
+	"label": "$LabelText",
+	"message": "$MessageText",
+	"labelColor": "gray",
+	"color": "hsl(210, 100%, 60%)",
+	"style": "flat",
+	"namedLogo": null,
+	"svg": null
+}
