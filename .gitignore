@@ -1,18 +1,16 @@
 #|===========================|#
 #|
-#|  Ignore Temporary Folders
-#|  Name: 'temp'
-**/*.temp*/*
-**/*.temp/*
-**/*temp*/*
-**/*temp/*
-**/.temp*/*
-**/.temp/*
-**/temp*/*
-**/temp/*
-
-#Name: 'tmp'
+#|  Ignore tmporary Folders
+#|  Name: 'tmp'
+*.tmp*/*
+*.tmp/*
+*tmp*/*
+*tmp/*
+.tmp*/*
+.tmp/*
+tmp*/*
+tmp/*
 
 
 #===========================
-#Ignore Temporary Files
+#Ignore tmporary Files
