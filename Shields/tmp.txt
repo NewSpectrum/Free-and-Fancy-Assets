@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/NewSpectrum/Free-and-Fancy-Assets/main/Shields/JSON/references/shields-provider.json
+
+https://raw.githubusercontent.com/NewSpectrum/Free-and-Fancy-Assets/main/Shields/data/references/shields-provider.json

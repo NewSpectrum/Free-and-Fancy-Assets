@@ -1,6 +1,8 @@
 # Custom Shield Icons
 
-[![img.shield.io](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FNewSpectrum%2FFree-and-Fancy-Assets%2Fmain%2FShields%2FJSON%2Freferences%2Fshields-provider.json)](https://img.shield.io/)
+[![img.shield.io](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FNewSpectrum%2FFree-and-Fancy-Assets%2Fmain%2FShields%2Fdata%2Freferences%2Fshields-provider.json)](https://img.shield.io/)
+
+
 
 <br />
 
@@ -21,13 +23,20 @@ STYLE="flat"
 Endpoint="https://img.shields.io/endpoint?url=${URL}&style${STYLE}"
 ```
 
-### The `${URL}`
+### Manual `${URL}` Configuration
 
 __IMPORTANT:__
 
-- Be sure to use the __[Raw File URL]__, which starts with:
-	- `https://raw.githubusercontent.com/...`
-- Should you choose to setup your __Endpoint URL__ manually rather than using the __[Create from JSON](https://shields.io/endpoint#:~:text=Customize%20and%20Test)__ tool, you need to *replace the following characters* with their __[HTML Codes]__
+Be sure to use the __[Raw File URL]__, which starts with:
+
+`https://raw.githubusercontent.com/...`
+
+```ps
+https://[raw.githubusercontent].com/...
+```
+
+
+- Should you choose to setup your __Endpoint URL__ *manually* rather than using the __[Create from JSON](https://shields.io/endpoint#:~:text=Customize%20and%20Test)__ tool, you need to *replace the following characters* with the the following __[`ASCII` Codes]__
 	- __[Embedded URI Characters]__
 		- Colon `:`
 		- Forward-Slash `/`
@@ -36,6 +45,7 @@ __IMPORTANT:__
 
 | Character | Validity | HTML Code |
 | :---:     | :---     | :---:     |
+| Colon `:` | :warning: URL<br />:x: Embeded URI | `%2F` |
 | Colon `:` | :warning: URL<br />:x: Embeded URI | `%3A` |
 
 
