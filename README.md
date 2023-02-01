@@ -1,7 +1,10 @@
-# Archived
+# :warning: Archived
 
 This repository has been archived and replaced by __[Free Assets & Resources](https://github.com/NewSpectrum/Free-Assets-and-Resources)__
 
+<br /><br /><br />
+
+---
 
 # Free & :sparkles:*Fancy*:sparkles: Assets
 
